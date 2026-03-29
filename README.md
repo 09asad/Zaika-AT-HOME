@@ -1,16 +1,85 @@
-# React + Vite
+Zaika AT HOME
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern food ordering and restaurant browsing web application built using React and Vite.
+Inspired by platforms like Swiggy, this project allows users to explore restaurants, view menus, and manage their cart seamlessly.
 
-Currently, two official plugins are available:
+🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🍽️ Browse restaurants and food items
+🔍 Search and filter restaurants
+📄 View detailed restaurant menus
+🛒 Add and remove items from cart
+⚡ Fast and responsive UI
+🔄 Dynamic data fetching using APIs
+📱 Fully responsive design
 
-## React Compiler
+🛠️ Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Frontend
+React (with Vite)
+React Router DOM
+Redux Toolkit (State Management)
+React Redux
 
-## Expanding the ESLint configuration
+Styling
+Tailwind CSS
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Testing & Tools
+Jest
+React Testing Library
+ESLint
+Babel
+
+📂 Project Setup
+
+1. Clone the repository
+git clone https://github.com/your-username/zaika-at-home.git
+cd zaika-at-home
+2. Install dependencies
+npm install
+3. Run development server
+npm run dev
+
+App will run on:
+
+http://localhost:5173
+
+🧪 Running Tests
+npm test
+
+📦 Build for Production
+npm run build
+
+⚙️ Project Structure
+zaika-at-home/
+│── src/
+│   ├── components/
+│   ├── pages/
+│   ├── redux/
+│   ├── utils/
+│   └── App.jsx
+│
+│── public/
+│── package.json
+│── vite.config.js
+
+🌐 API Integration
+Fetches restaurant and menu data from external APIs
+Handles CORS issues using proxy configuration
+
+
+🚧 Future Improvements
+🔐 User Authentication (Login/Signup)
+💳 Payment Integration
+🧾 Order History
+🗄️ Backend with database (MongoDB)
+📦 Full-stack deployment
+
+🤝 Contributing
+
+Contributions are welcome!
+Feel free to fork this repo and submit a pull request.
+
+👨‍💻 Author
+
+Asad Khan
