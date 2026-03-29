@@ -1,4 +1,4 @@
-# 🍔 Zaika at Home
+# 🍔 Zaika AT HOME
 
 A modern food ordering and restaurant browsing web application built using React and Vite.
 Inspired by platforms like Swiggy, this project allows users to explore restaurants, view menus, and manage their cart seamlessly.
