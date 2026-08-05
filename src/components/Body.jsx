@@ -17,7 +17,7 @@ const Body = () => {
     }, []);
 
     const fetchData = async () => {
-       const data = await fetch("http://localhost:5000/api/restaurants");
+       const data = await fetch("https://zaika-at-home.onrender.com/api/restaurants");
         const json = await data.json();
         console.log(json);  
         // Optional Chaining ( ?. optional chaining operator)
